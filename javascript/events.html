@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Learning JavaScript</title>
+</head>
+<body onload="showDate()">
+    <div class='header'>
+        <h1 id="heading"> Learning JavaScript </h1>
+        <p> Nauman Afsar </p>
+    </div>
+
+    <div class='container'>
+    <!-- <button onclick="doClick()"> Click Me </button> -->
+
+    <!-- <button onclick="this.innerHTML='You Clicked!'"> Click Me </button> -->
+
+    <!-- <button onclick= "changeText(this)"> Click Me </button> -->
+
+    <button onclick= "changeText()"> Click Me </button>
+     <p id="time"></p>
+    <button onclick= "showDate()"> Show Date </button>
+    </div>
+    <script>
+      // function doClick() {
+      //   alert("You Clicked!");
+      // }
+
+      // function changeText(id){
+      //   id.innerHTML = 'You Clicked!';
+      // }
+
+      function changeText(){
+       var heading =  document.getElementById('heading');
+       heading.innerHTML = "You Clicked!"
+     }
+
+     function showDate() {
+       var date = document.getElementById('time');
+       time.innerHTML = Date();
+
+     }
+    </script>
+</body>
+</html>

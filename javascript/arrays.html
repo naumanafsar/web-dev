@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Learning JavaScript</title>
+</head>
+<body>
+    <div class='header'>
+        <h1> Learning JavaScript </h1>
+        <p> Nauman Afsar </p>
+    </div>
+
+    <div class='container'>
+    </div>
+    <script>
+        //arrays
+
+        var colors = ['red' , 'blue' , 'green']
+        alert(colors[2])
+
+        var colors = new Array('Red', 'Blue', 'Green');
+        colors[3] = 'RGB'
+        alert(colors)
+
+        // the better way is to use the push function
+        var colors = ['red' , 'blue' , 'green']
+        colors.push('purple')
+        alert(colors[3]);
+
+        var numbers = [ 1 , 2 ,3 , 4 , 'five']
+        alert(numbers[0] + numbers[4]);
+
+        var numbers = [ 1 , 2 ,3 , 4 , 'five'];
+        alert(numbers.length);
+
+        var numbers = [ 1 , 3 ,6 , 4 , 'five'];
+        alert(numbers.sort());
+
+        var numbers = [ 1 , 3 ,6 , 4 , 'five'];
+        alert(numbers.reverse());
+    </script>
+</body>
+</html>

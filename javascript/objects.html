@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Learning JavaScript</title>
+</head>
+<body>
+    <div class='header'>
+        <h1> Learning JavaScript </h1>
+        <p> Nauman Afsar </p>
+    </div>
+
+    <div class='container'>
+
+    </div>
+    <script>
+      //Objects Literals
+      // var person ={
+      //   firstName: "Nauman",
+      //   lastName: "Afsar",
+      //   Age: 19,
+      //   likes: ['Chess' , 'Badminton'],
+      //   address: {
+      //     street: '180 Industrial Estate',
+      //     city: 'Peshawar',
+      //     province: 'Peshawar'
+
+      //   },
+      //   fullName: function(){
+      //     return this.firstName +" "+ this.lastName;
+      //   }
+      // }
+
+      //console.log(person.likes[1]);
+      //console.log(person.address.city)
+      //console.log(person.fullName());
+
+      //Object Constructor
+
+      // var apple = new Object();
+      // apple.color = 'red';
+      // apple.shape = 'round';
+
+      // apple.describe = function(){
+      //   return 'An Apple is the color '+ this.color+'and is the shape '+this.shape;
+      // }
+      // console.log(apple.describe());
+
+      //Object Pattern
+
+      // function Fruit(color, name, shape){
+      //   this.name = name;
+      //   this.color = color;
+      //   this.shape = shape;
+
+      //   this.describe = function(){
+      //     return 'A '+this.name+' is the color of '+this.color+' and the shape of '+this.shape;
+      //   }
+      // }
+      // var apple = new Fruit('red' , 'apple', 'round');
+      // console.log(apple.describe())
+
+      var users = [
+          { 
+            name: 'Nauman Afsar',
+            age: 19
+          },
+
+          { 
+            name: 'Sannan Afsar',
+            age: 4
+          },
+
+          { 
+            name: 'Amir Mansoor',
+            age: '10'
+          }
+          ];
+        console.log(users[2].name);
+    </script>
+</body>
+</html>
