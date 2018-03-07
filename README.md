@@ -1,2 +1,2 @@
-I started Web Development in Jan 2018,
-since then all my codes belong here :)
+My web developments practices and notes since Jan 2018!
+naumanafsar45@gmail.com
