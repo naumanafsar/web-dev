@@ -9,15 +9,15 @@
 // console.log(document.links);
 // console.log(document.all[10]);
 // console.log(document.forms[0]);
-// document.title = "Hello";    changing directly the title
+// document.title = "Hello";   // changing directly the title
 // console.log(document.nodeName);
 
 
 // GETELEMENTBYID //
 
 // console.log(document.getElementById('header-title'));
-  // var Title = document.getElementById('header-title');
-  // console.log(Title);
+  var Title = document.getElementById('header-title');
+//   console.log(Title);
   // var Title = document.getElementById('main-header');
   // Title.textContent = 'Hello World!';  //It Ignores Style
   // Title.innerText = "Hello From Text!";
