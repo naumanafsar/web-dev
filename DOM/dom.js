@@ -16,7 +16,7 @@
 // GETELEMENTBYID //
 
 // console.log(document.getElementById('header-title'));
-  var Title = document.getElementById('header-title');
+  // var Title = document.getElementById('header-title');
 //   console.log(Title);
   // var Title = document.getElementById('main-header');
   // Title.textContent = 'Hello World!';  //It Ignores Style
@@ -24,6 +24,6 @@
   // Title.style.borderBottom = "solid 3px #000";
 
 // GETELEMENTBYCLASS //
-// var items = document.getElementsByClassName('list-group-item');
-// console.log(items);
-// items[0].textContent = "Hello";
+var items = document.getElementsByClassName('list-group-item');
+console.log(items);
+items[0].textContent = "Hello";
